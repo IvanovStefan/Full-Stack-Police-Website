@@ -1,0 +1,71 @@
+.new-cazier-container {
+    width: 60%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-cazier-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0da4bf;
+  }
+  
+  .new-cazier-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .new-cazier-container form div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .new-cazier-container form label {
+    font-weight: bold;
+    margin-right: 10px;
+    width: 150px;
+  }
+  
+  .new-cazier-container form input,
+  .new-cazier-container form select {
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    flex: 1;
+  }
+  
+  .new-cazier-container form input:focus,
+  .new-cazier-container form select:focus {
+    border-color: #0da4bf;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 160, 175, 0.5);
+  }
+  
+  .new-cazier-container form button {
+    align-self: flex-start;
+    background-color: #0da4bf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-cazier-container form button:hover {
+    background-color: #0a8398;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #0da4bf;
+  }

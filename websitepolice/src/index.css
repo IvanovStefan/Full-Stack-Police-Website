@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif; /* Basic sans-serif font for readability */
+  background-color: #f4f4f4; /* Light background color */
+  color: #333; /* Default text color */
+  line-height: 1.6; /* Improve readability */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Slightly different font for headings */
+  margin-bottom: 15px;
+  color: #0da4bf; /* Green color for headings to match the header */
+}
+
+a {
+  text-decoration: none;
+  color: inherit; /* Links will inherit the color from their parent */
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  background-color: #0da4bf;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0a8398; /* Darker green on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #0da4bf; /* Match header color for table headers */
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1; /* Light gray hover effect on rows */
+}
+
+/* Apply some basic spacing and centering */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  font-size: 16px;               /* Mărimea textului din input */
+  padding: 8px 12px;             /* Spațiu intern (padding) în jurul textului */
+  border: 2px solid #ccc;        /* Bordură gri deschis */
+  border-radius: 4px;            /* Colțuri rotunjite */
+  box-sizing: border-box;        /* Include padding-ul și border-ul în calculul lățimii */
+  transition: all 0.3s ease;     /* Adaugă o tranziție lină pentru schimbările de stil */
+}
+
+input:focus {
+  border-color: #0da4bf;         /* Bordura devine verde când input-ul este selectat */
+  outline: none;                 /* Îndepărtează conturul implicit al input-ului */
+  box-shadow: 0 0 8px rgba(76, 160, 175, 0.5); /* Umbra verde care apare când este focusat */
+}
+
+input::placeholder {
+  color: #aaa;                    /* Text gri deschis pentru placeholder */
+  font-style: italic;              /* Face placeholder-ul să fie cursiv */
+}

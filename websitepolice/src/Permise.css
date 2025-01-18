@@ -1,0 +1,76 @@
+.header-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+  
+.header-container h2 {
+    margin: 0;
+}
+  
+.header-container button {
+    margin-left: 20px;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table th, 
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header2-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header2-container h2 {
+    margin: 0;
+}
+
+.header2-container button {
+    margin-left : 20px;
+}
+
+button.active {
+    background-color: #0a8398;
+    font-weight: bold; 
+  }
+
+.header3-container {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header3-container h2 {
+    margin: 0;
+}
+
+.table-extended {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-extended th,
+.table-extended td {
+    text-align: center;
+}
+
+.table-extended td {
+    min-width: 80px;
+}
+
+.table-extended th:nth-child(n+5),
+.table-extended td:nth-child(n+5) {
+    width: 80px;
+}

@@ -1,0 +1,122 @@
+  .meniu-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .meniu-content {
+    flex: 1;
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrează conținutul pe axa orizontală */
+    justify-content: center; /* Centrează conținutul pe axa verticală */
+  }
+  
+  .meniu-content h1 {
+    margin-bottom: 36px;
+    color: #0da4bf;
+    font-size: 1.7rem;
+  }
+  
+  /* Grid Principal */
+  .meniu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    justify-items: center; /* Centrează cardurile în grid */
+    align-items: stretch; /* Asigură că toate cardurile se întind la aceeași înălțime */
+    margin: 0 auto; /* Centrează grid-ul în container */
+  }
+  
+  /* Grid Secundar */
+  .meniu-grid-secondary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 700px; /* Ajustează în funcție de numărul de carduri */
+    width: 100%;
+    justify-items: center;
+    align-items: stretch;
+    margin: 40px auto; /* Spațiere superioară */
+  }
+  
+  /* Grid Terțiar */
+  .meniu-grid-tertiary {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1300px; /* Ajustează în funcție de numărul de carduri */
+    width: 100%;
+    justify-items: center;
+    align-items: stretch;
+  }
+  
+  .meniu-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Asigură că cardul ocupă toată lățimea grid cell-ului */
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Distribuie spațiul vertical */
+    height: 100%; /* Întinde cardul pe întreaga înălțime a grid cell-ului */
+  }
+  
+  .meniu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .meniu-card h3 {
+    margin-bottom: 15px;
+    color: #0da4bf;
+    font-size: 1.5rem;
+    flex-shrink: 0; /* Previne micșorarea titlurilor */
+  }
+  
+  .meniu-card p {
+    font-size: 1rem;
+    color: #555;
+    flex-grow: 1; /* Permite paragrafului să ocupe spațiul disponibil */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Responsivitate suplimentară */
+  @media (max-width: 768px) {
+    .meniu-content {
+      padding: 20px 10px;
+    }
+  
+    .meniu-card {
+      padding: 20px 15px;
+      width: 100%; /* Cardurile ocupă toată lățimea pe ecrane mici */
+      max-width: 300px;
+      height: auto; /* Auto height for smaller screens */
+    }
+  
+    .meniu-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    /* Ajustează numărul de coloane pentru grile */
+    .meniu-grid,
+    .meniu-grid-secondary,
+    .meniu-grid-tertiary {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  

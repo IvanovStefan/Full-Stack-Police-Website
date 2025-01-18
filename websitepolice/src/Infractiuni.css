@@ -1,0 +1,38 @@
+.infractiuni-header {
+    display: flex;               /* Pentru a pune elementele in linie */
+    align-items: center;         /* Le aliniază pe verticală la centru */
+    justify-content: space-between; /* Spațiu maxim între h1 și statistici */
+    padding: 20px;               /* Spațiu în jur */
+    background-color: #fff;      /* Fundal alb */
+    border-radius: 8px;          /* Colțuri ușor rotunjite */
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Umbra ușoară pentru evidențiere */
+  }
+  
+  .infractiuni-title {
+    margin: 0;                  /* Anulăm marginile default */
+  }
+  
+  .infractiuni-stats {
+    display: flex;             /* Așezăm informațiile statisticilor în linie */
+    gap: 20px;                 /* Spațiu între paragrafe */
+  }
+
+  .infractiuni-stats p {
+    background-color: #eaeaea;     /* Fundal gri deschis pentru statistici */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;              /* Bold moderat */
+    margin: 0;
+  }
+  
+  /* Eroarea afișată sub container */
+  .error-text {
+    color: red;
+    margin: 20px;
+  }
+
+  h2 {
+    margin-left: 20px;
+    margin-top: 20px;
+  }

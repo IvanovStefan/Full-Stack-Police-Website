@@ -1,0 +1,56 @@
+.cazier-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.cazier-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.cazier-input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.cazier-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.personal-info, .cazier-details {
+  margin-bottom: 20px;
+}
+
+.personal-info h2, .cazier-details h2 {
+  margin-bottom: 10px;
+}
+
+.cazier-entry {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.cazier-details .cazier-curat {
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+}
+
+.cazier-details p.cazier-curat {
+  font-style: italic;
+  color: green;
+  font-weight: bold;
+}

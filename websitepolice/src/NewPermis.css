@@ -1,0 +1,202 @@
+.new-permis-container {
+    width: 80%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-permis-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0da4bf;
+  }
+  
+  /* Styling pentru containerul de inserare permis */
+  .insert-permis-container,
+  .associate-permis-container,
+  .update-delete-permis-container {
+    margin-bottom: 30px;
+  }
+  
+  .insert-permis-container h2,
+  .associate-permis-container h2,
+  .update-delete-permis-container h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #0da4bf;
+  }
+  
+  .new-permis-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .new-permis-container .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .new-permis-container form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .new-permis-container form input,
+  .new-permis-container form select {
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .new-permis-container form input:focus,
+  .new-permis-container form select:focus {
+    border-color: #0da4bf;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 160, 175, 0.5);
+  }
+  
+  .new-permis-container form button {
+    align-self: flex-start;
+    background-color: #0da4bf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .new-permis-container form button:hover {
+    background-color: #0a8398;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .message.success {
+    color: green;
+  }
+  
+  .message.error {
+    color: red;
+  }
+  
+  /* Styling pentru secțiunea de actualizare și ștergere */
+  .update-delete-section {
+    margin-top: 20px;
+  }
+  
+  .update-delete-section h3 {
+    color: #0da4bf;
+  }
+  
+  .update-delete-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .update-delete-section table, .update-delete-section th, .update-delete-section td {
+    border: 1px solid #ccc;
+  }
+  
+  .update-delete-section th, .update-delete-section td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .update-delete-section th {
+    background-color: #f2f2f2;
+  }
+  
+  .update-delete-section button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .update-delete-section button:hover {
+    opacity: 0.9;
+  }
+  
+  .update-delete-section .delete-button {
+    background-color: #bf0d0d;
+  }
+  
+  .update-delete-section .update-button {
+    background-color: #0da4bf;
+  }
+  
+  .update-form {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .update-form h4 {
+    color: #0da4bf;
+    margin-bottom: 10px;
+  }
+  
+  .update-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .update-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .update-form form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .update-form form input,
+  .update-form form select {
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .update-form form input:focus,
+  .update-form form select:focus {
+    border-color: #0da4bf;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 160, 175, 0.5);
+  }
+  
+  .update-form form button {
+    align-self: flex-start;
+    background-color: #0da4bf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .update-form form button:hover {
+    background-color: #0a8398;
+  }

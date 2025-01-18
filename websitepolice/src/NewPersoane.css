@@ -1,0 +1,203 @@
+.new-persoane-container {
+    width: 60%;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-persoane-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0da4bf;
+  }
+  
+  .new-persoane-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .new-persoane-container form div{
+    display: flex;
+    align-items: center;
+  }
+  
+  .new-persoane-container form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 150px;
+  }
+  
+  .new-persoane-container form input,
+  .new-persoane-container form select {
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    flex: 1;
+  }
+  
+  .new-persoane-container form input:focus,
+  .new-persoane-container form select:focus {
+    border-color: #0da4bf;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 160, 175, 0.5);
+  }
+  
+  .new-persoane-container form button {
+    align-self: flex-start;
+    background-color: #0da4bf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .new-persoane-container form button:hover {
+    background-color: #0a8398;
+  }
+  
+  .message {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #0da4bf;
+  }
+  
+
+/* Styling for search container */
+.search-persoane-container {
+    width: 60%;
+    margin: 20px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-persoane-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0da4bf;
+  }
+  
+  .search-persoane-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .search-persoane-container form div{
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-persoane-container form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    width: 150px;
+  }
+  
+  .search-persoane-container form input {
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    margin-left: 15px;
+    flex: 1;
+  }
+  
+  .search-persoane-container form input:focus {
+    border-color: #0da4bf;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 160, 175, 0.5);
+  }
+  
+  .search-persoane-container form button {
+    align-self: flex-start;
+    background-color: #0da4bf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-persoane-container form button:hover {
+    background-color: #0a8398;
+  }
+  
+  /* Styling for edit container */
+  .edit-persoane-container {
+    margin-top: 30px;
+  }
+  
+  .edit-persoane-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0da4bf;
+  }
+  
+  .edit-persoane-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .edit-persoane-container form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .edit-persoane-container form input,
+  .edit-persoane-container form select {
+    font-size: 16px;
+    padding: 10px 12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    margin-left: 15px;
+  }
+  
+  .edit-persoane-container form input:focus,
+  .edit-persoane-container form select:focus {
+    border-color: #0da4bf;
+    outline: none;
+    box-shadow: 0 0 8px rgba(76, 160, 175, 0.5);
+  }
+  
+  .edit-persoane-container .edit-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-persoane-container .edit-buttons button {
+    background-color: #0da4bf;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .edit-persoane-container .edit-buttons .delete-button {
+    background-color: #bf0d0d;
+  }
+  
+  .edit-persoane-container .edit-buttons button:hover {
+    opacity: 0.9;
+  }
+  
+  .edit-persoane-container .edit-buttons .delete-button:hover {
+    background-color: #8b0a0a;
+  }
+  
